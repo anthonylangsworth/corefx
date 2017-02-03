@@ -15,6 +15,7 @@
     <Compile Include="EncryptedXmlEqualityComparer.cs" />
     <Compile Include="KeyInfoTests.cs" />
     <Compile Include="SignedXmlTests.cs" />
+    <Compile Include="XmlNodeListEqualityComparer.cs" />
   </ItemGroup>
   <Import Project="$([MSBuild]::GetDirectoryNameOfFileAbove($(MSBuildThisFileDirectory), dir.targets))\dir.targets" />
 </Project>
